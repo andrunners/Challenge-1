@@ -1,0 +1,61 @@
+.iluminacao_porta_camera {
+    /* flexbox do elemento pai: */
+    position: absolute;
+    top: 600px;
+    left: 200px;
+    display: flex;
+    gap: 10px 10px;
+    color: white;
+    
+  }
+  
+  
+  .bloco-7 {   
+    height: 140px;
+    width: 170px; 
+    border-radius: 16px;
+    text-align: center;
+    font-size: 18px;
+  }
+.bloco-7-color{
+  color: white;
+  background-image: linear-gradient(to top, #141316,#37363a);
+}
+.bloco-7-color:focus{
+  border: 3px solid;
+  border-color: #5a6cbe;
+}
+
+  
+  .bloco-8 {
+    height: 140px;
+    width: 170px; 
+    border-radius: 16px;
+    text-align: center;
+    font-size: 18px; 
+  }
+  .bloco-8-color{
+    color: white;
+    background-image: linear-gradient(to top, #141316,#37363a);
+  }
+  .bloco-8-color:focus{
+    border: 3px solid;
+  border-color: #5a6cbe;
+  }
+
+  
+  .bloco-9 {
+    height: 140px;
+    width: 170px; 
+    border-radius: 16px; 
+    text-align: center;
+    font-size: 16px; 
+  }
+  .bloco-9-color{
+    color: white;
+    background-image: linear-gradient(to top, #141316,#37363a);
+  }
+  .bloco-9-color:focus{
+    border: 3px solid;
+  border-color: #5a6cbe;
+  }

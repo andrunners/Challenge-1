@@ -1,0 +1,105 @@
+.home{
+    position: absolute;
+    color: white;
+    top: 100px;
+    left: 16px;
+    font-size: 32px;
+    border: none;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 16px;
+    height: 80px;
+    width: 80px;
+    background-color: #37363a; 
+    
+}
+
+.home:hover {
+    background-color: #5A6CBE;
+}
+
+.home-color:focus{
+    background-color: #5A6CBE;
+}
+
+.apps{
+    position: absolute;
+    top: 200px;
+    left: 16px;
+    font-size: 32px;
+    background-color: #37363a;
+    color: white;    
+    border: none;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 16px;
+    height: 80px;
+    width: 80px; 
+    
+}
+
+.apps:hover {
+    background-color: #5A6CBE;
+}
+
+.apps-color:focus{
+    background-color: #5A6CBE;
+}
+
+.notifications{
+    position: absolute;
+    top: 300px;
+    left: 16px;
+    background-color: #37363a;
+    font-size: 32px;
+    color: white; 
+    text-transform: uppercase;
+    border: none;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 16px;
+    height: 80px;
+    width: 80px; 
+    
+}
+
+.notifications:hover {
+    background-color: #5A6CBE;
+}
+
+.notifications-color:focus{
+    background-color: #5A6CBE;
+}
+.settings{
+    position: absolute;
+    top: 400px;
+    left: 16px;
+    background-color: #37363a;
+    color: white;
+    font-size: 32px;
+    border: none;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 16px;
+    height: 80px;
+    width: 80px; 
+    
+}
+
+.settings:hover {
+    background-color: #5A6CBE;
+}
+
+.settings-color:focus{
+    background-color: #5A6CBE;
+}
+
+.bloco-menu{
+    display: flex;
+    position: absolute;
+    width: 120px;
+    height: 744px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(180deg, #333236 0%, #232227 100%);
+}

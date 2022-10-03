@@ -1,0 +1,81 @@
+EXEMPLO29.HTML
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Exemplo 29 de CSS</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="exemplo29.css">
+  </head>
+  <body>
+    <div id="absoluto">Absoluto</div>
+	<div id="absoluto2">Absoluto</div>
+	<div id="absoluto3">Absoluto
+	  <div id="relativo">Relativo</div>
+	</div>
+	<div id="estatico">Estático</div>
+	<div id="fixo">Fixo</div>
+  </body>
+</html>
+
+EXEMPLO29.CSS
+div
+{
+  width: 100px;
+  height: 100px;
+  border: 5px solid;
+  font-size: 1.3em;
+  padding: 4px;
+}
+
+#absoluto
+{
+  position: absolute;
+  top: 50px;
+  border-color: red;
+  color: red;
+}
+
+#absoluto2
+{
+  position: absolute;
+  top: 600px;
+  left: 200px;
+  border-color: black;
+  color: black;
+}
+
+#absoluto3
+{
+	position: relative;
+	top: 10px;
+	left: 300px;
+	border-color: green;
+	color: green;
+	width: 300px;
+	height: 300px;
+}
+
+#relativo
+{
+  position: relative;
+  top: 30px;
+  left: 50px;
+  border-color: orchid;
+  color: orchid;
+}
+
+#estatico
+{
+  position: static;
+  border-color: blue;
+  color: blue;
+}
+
+#fixo
+{
+  position: fixed;
+  top: 200px;
+  left: 200px;
+  border-color: gray;
+  color: gray;
+}

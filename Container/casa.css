@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+  }
+  
+  
+  .quarto1_2_escritorio {
+    /* flexbox do elemento pai: */
+    position: absolute;
+    top: 250px;
+    left: 230px;
+    display: flex;
+    gap: 5px 5px;
+    color: white;
+  }
+  
+  .bloco-1 {   
+    background-color: #454a50;
+    height: 100px;
+    width: 100px;
+    border-radius: 16px;
+    text-align: center;
+    font-size: 14px;
+  }
+  .bloco-1-color:focus{
+    background-color: #5a6cbe;
+  }
+  
+  .bloco-2 {
+    background-color: #454a50;
+    height: 100px;
+    width: 100px; 
+    border-radius: 16px;
+    text-align: center;
+    font-size: 14px;
+  }
+  .bloco-2-color:focus{
+    background-color: #5a6cbe;
+  }
+  
+  .bloco-3 {
+    background-color: #454a50;
+    height: 100px;
+    width: 100px;
+    border-radius: 16px;
+    text-align: center;
+    font-size: 14px;
+  }
+  .bloco-3-color:focus{
+    background-color: #5a6cbe;
+  }
+
+/* segunda coluna dos cômodos */
+
+
+  .hall_sala_cozinha {
+    position: absolute;
+    top: 360px;
+    left: 230px;
+    display: flex;
+    gap: 5px 5px;
+    color: white;
+  }
+  
+  .bloco-4 { 
+    background-color: #454a50;
+    height: 100px;
+    width: 100px; 
+    border-radius: 16px;
+    text-align: center;
+    font-size: 14px;
+  }
+  .bloco-4-color:focus{
+    background-color: #5a6cbe;
+  }
+  
+  .bloco-5 {
+    background-color: #454a50;
+    height: 100px;
+    width: 100px; 
+    border-radius: 16px;
+    text-align: center;
+    font-size: 14px;
+  }
+  .bloco-5-color:focus{
+    background-color: #5a6cbe;
+  }
+  
+  .bloco-6 {
+    background-color: #454a50;
+    height: 100px;
+    width: 100px;
+    border-radius: 16px;
+    text-align: center;
+    font-size: 14px;
+  }
+  .bloco-6-color:focus{
+    background-color: #5a6cbe;
+  }
