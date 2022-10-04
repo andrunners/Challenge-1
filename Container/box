@@ -1,0 +1,89 @@
+div{
+  width: 375px;
+  height: 400px;
+  font-size: 1.3em;
+  padding: 4px;
+  border-radius: 10px;
+  background-image: linear-gradient(to top, #0d1117, #384963);
+  ;
+}
+#ar-condicionado{
+    position: absolute;
+    top: 110px;
+    left: 600px;
+    border-color: white;
+    color: white;
+    border-color: rgb(90, 108, 190);
+    text-align: center;
+    border: 3px solid;
+    border-color: #5a6cbe;
+}
+
+    /*#################*/
+/*BUTTONS MODO/ECO/PROGRAMAR*/
+.ac{
+    position: absolute;
+    display: flex;
+    height: 50px;
+    width: 70px;    
+    top: 170px;
+    left: 640px;
+    gap: 0px 30px;
+}
+/*MODO*/
+.modo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 12px;
+    border: none;
+    tex
+}
+.modo-color{
+    color: #fff;
+    background-color: #bdbdbd;
+}
+
+.modo-color:focus{
+    background-color: #5a6cbe;
+}
+/*ECO*/
+.eco{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 12px;
+    border: none;
+}
+.eco-color{
+    color: white;
+    background-color: #bdbdbd;
+}
+.eco-color:focus{
+    background-color: #5a6cbe;
+}
+/*PROGRAMAR*/
+.programar{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 12px;
+    border: none;
+}
+.programar-color{
+    color: white;
+    background-color: #bdbdbd;
+}
+
+.programar-color:focus{
+    background-color: #5a6cbe;
+}
