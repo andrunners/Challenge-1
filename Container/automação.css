@@ -7,14 +7,18 @@
     gap: 10px 10px;
     color: white;
     
+    
 }
 
 .bloco-7 {   
     height: 140px;
     width: 170px; 
     border-radius: 16px;
+    border: none;
+    box-shadow: 5px 4px 10px -5px rgb(0, 0, 0);
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
+    font-family: 'Lexend', sans-serif;
 }
 
 .bloco-7-color{
@@ -82,9 +86,12 @@
     height: 140px;
     width: 170px; 
     border-radius: 16px;
+    border: none;
+    box-shadow: 5px 5px 10px -5px rgb(0, 0, 0);
     margin-left: -10px;
     text-align: center;
-    font-size: 18px; 
+    font-size: 16px;
+    font-family: 'Lexend', sans-serif; 
 }
 
 .bloco-8-color{
@@ -153,9 +160,12 @@
     height: 140px;
     width: 170px; 
     margin-left: -10px;
-    border-radius: 16px; 
+    border-radius: 16px;
+    border: none; 
+    box-shadow: 5px 5px 10px -5px rgb(0, 0, 0);
     text-align: center;
-    font-size: 16px; 
+    font-size: 16px;
+    font-family: 'Lexend', sans-serif; 
 }
 
 .bloco-9-color{

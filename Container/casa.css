@@ -1,6 +1,10 @@
 * {
     margin: 0;
 }
+
+.bordas{
+  border: none;
+}
     
 .quarto1_2_escritorio {
     /* flexbox do elemento pai: */
@@ -16,9 +20,14 @@
     background-color: #454a50;
     height: 100px;
     width: 100px;
-    border-radius: 16px;
+    border-radius: 10px;
+    border: none;
     text-align: center;
     font-size: 14px;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 700;
+    color: white;
+
 }
 
 .bloco-1-color:focus{
@@ -34,9 +43,14 @@
     background-color: #454a50;
     height: 100px;
     width: 100px; 
-    border-radius: 16px;
+    border-radius: 10px;
+    border: none;
     text-align: center;
     font-size: 14px;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 700;
+    color: white;
+
   }
 
 .bloco-2-color:focus{
@@ -51,10 +65,14 @@
 .bloco-3 {
     background-color: #454a50;
     height: 100px;
-    width: 100px;
-    border-radius: 16px;
+    width: 140px;
+    border-radius: 10px;
+    border: none;
     text-align: center;
     font-size: 14px;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 700;
+    color: white;
   }
 
 .bloco-3-color:focus{
@@ -79,10 +97,14 @@
 .bloco-4 { 
     background-color: #454a50;
     height: 100px;
-    width: 100px; 
-    border-radius: 16px;
+    width: 70px; 
+    border-radius: 10px;
+    border: none;
     text-align: center;
-    font-size: 14px;
+    font-size: 12px;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 700;
+    color: white;
 }
 
 .bloco-4-color:focus{
@@ -97,11 +119,15 @@
 .bloco-5 {
     background-color: #454a50;
     height: 100px;
-    width: 100px; 
-    border-radius: 16px;
+    width: 130px; 
+    border-radius: 10px;
+    border: none;
     text-align: center;
     font-size: 14px;
-  }
+    font-family: 'Lexend', sans-serif;
+    font-weight: 700;
+    color: white;
+}
 
 .bloco-5-color:focus{
     background-color: #5a6cbe;
@@ -115,10 +141,14 @@
 .bloco-6 {
     background-color: #454a50;
     height: 100px;
-    width: 100px;
-    border-radius: 16px;
+    width: 140px;
+    border-radius: 10px;
+    border: none;
     text-align: center;
     font-size: 14px;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 700;
+    color: white;
 }
 
 .bloco-6-color:focus{
@@ -130,3 +160,25 @@
     cursor: pointer;
 }
 
+.bloco-novo {
+  background-color: #454a50;
+  height: 100px;
+  width: 140px;
+  margin-left: 36px;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Lexend', sans-serif;
+  font-weight: 700;
+  color: white;
+}
+
+.bloco-novo-color:focus{
+  background-color: #5a6cbe;
+}
+
+.bloco-novo-color:hover{
+  background-color: #5a6cbe;
+  cursor: pointer;
+}
